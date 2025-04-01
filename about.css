@@ -269,93 +269,29 @@ li:hover .sub-links {
     justify-content: center;
  }
 
- .contain {
-    margin-top: 800px;
+ .photo-container{
     width: 100%;
-     
- }
- .topphoto{
-     display: flex;
-     justify-content: center;
- 
- }
- .contain .photo-card{
-     height: 520px;
-     
- }
- #pic{
     display: flex;
-    gap: 30px;
-    justify-content: center;
-
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
  }
- .photo-container {
-     display: flex;
-     gap: 20px;
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;
-     margin-top: 100px;
+ .box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
  }
- .photo-card {
-     text-align: center;
-     height: 500px;
-     width: 350px; /* Adjust width as needed */
-     background-color: #333;
-     border-radius: 25px;
-
-     opacity: 0;
-     transform: translateY(-100px); /* Start above its position */
-     transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Adjust the timing for smooth falling */
+ .photo{
+    height: 500px;
+    border-radius: 25%;
  }
- 
- /* Visible state when scrolled into view */
- .photo-card.animate {
-     opacity: 1;
-     transform: translateY(0); /* Falls into place */
+ .text{
+    font-size: 30px;
+    
  }
- 
- .photo-card .photo {
-     width: 300px;
-     height: 300px;
-     margin-top: 30px;
-     border-radius: 25px; 
-     box-shadow: 0 2px 5px rgba(0, 0, 0, 2); 
+ .nametitle{
+    font-weight: 800;
  }
- 
- .photo-card p {
-     margin-top:10px;
-     font-size: 20px;
-     color: white;
- }
- .photo-card .nametitle{
-     font-size: 25px;
-     font-weight: 700;
- }
- .photo-card .nametitle:hover{
-     color: #c30302;
- }
- .photo-container2 {
-     display: flex;
-     gap: 20px;
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;
-     margin-top: 80px;
-   
-   }
-
-   #box{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  #box:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 12);
-  }
-
-   
  
   
 .redline{
@@ -562,68 +498,29 @@ li:hover .sub-links {
         margin-bottom: 100px;
      }
     .grandmaster{
-        height: 400px;
+        height: 300px;
         width: 100%;
     }
-     .contain {
-        margin-top: 700px;
+    .photo-container{
         width: 100%;
-         
+        gap: 100px;
      }
-     .topphoto{
-         display: flex;
-         justify-content: center;
-     
-     }
-     .contain .photo-card{
-         height: 350px;
-         
-     }
-     .photo-container {
-        display: flex;
+     .box{
+
         gap: 20px;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-top: 80px;
-    }
-    
-    .photo-card {
-        text-align: center;
-        height: 350px;
-        width: 200px; /* Adjust width as needed */
-        background-color: #333;
-        border-radius: 25px;
-    }
-    
-    .photo-card .photo {
-        width: 150px;
-        height: 150px;
-        margin-top: 30px;
-        border-radius: 25px; 
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 2); 
-    }
-    
-    .photo-card p {
-        margin-top:10px;
-        font-size: 15px;
-        color: white;
-    }
-    .photo-card .nametitle{
+     }
+     .photo{
+        height: 300px;
+        border-radius: 25%;
+     }
+     .text{
         font-size: 20px;
+        
+     }
+     .nametitle{
         font-weight: 700;
-    }
-    .photo-card .nametitle:hover{
-        color: #c30302;
-    }
-    .photo-container2 {
-        display: flex;
-        gap: 20px;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-top: 80px;
-    }
+     }
+     
     
     .redline{
         margin-top: -10px;
@@ -764,69 +661,34 @@ li:hover .sub-links {
     font-size: 25px;
  }
  .grandbox{
-    margin-top: 50px;
+    margin-top: 550px;
     margin-bottom: 100px;
  }
 .grandmaster{
+    margin-top: 250px;
     height: 350px;
     width: 100%;
 }
- .contain {
-    margin-top: 700px;
+.photo-container{
     width: 100%;
-     
+    gap: 100px;
  }
- .topphoto{
-     display: flex;
-     justify-content: center;
- 
+ .box{
+
+    gap: 20px;
  }
- .contain .photo-card{
-     height: 320px;
-     
+ .photo{
+    height: 200px;
+    border-radius: 25%;
  }
- .photo-container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 80px;
-}
-
-.photo-card {
-    text-align: center;
-    height: 250px;
-    width: 200px; /* Adjust width as needed */
-    background-color: #333;
-    border-radius: 25px;
-}
-
-.photo-card .photo {
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    border-radius: 25px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 2); 
-}
-
-.photo-card p {
-    margin-top:10px;
-    font-size: 15px;
-    color: white;
-}
-.photo-card .nametitle{
-    font-size: 18px;
+ .text{
+    font-size: 20px;
+    
+ }
+ .nametitle{
     font-weight: 700;
-}
-.photo-container2 {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
+ }
+ 
 
 .redline{
     margin-top: -10px;
@@ -948,7 +810,7 @@ nav ul a:hover{
     font-size: 20px;
     width: 300px; 
     margin-top: 150px;
-    margin-left: 30px;
+    margin-left: 50px;
     z-index: 2;
 }
 .samurai{
@@ -956,7 +818,7 @@ nav ul a:hover{
     height: 350px;
     margin-right: 20px;
     margin-top: 140px;
-    opacity: 0.6;
+    opacity: 0;
 }
 .blackline2{
     margin-top: 300px;
@@ -978,65 +840,28 @@ nav ul a:hover{
     margin-bottom: 50px;
  }
 .grandmaster{
-    height: 300px;
-    width: 100%;
-}
- .contain {
-    margin-top: 700px;
-    width: 100%;
-     
- }
- .topphoto{
-     display: flex;
-     justify-content: center;
- 
- }
- .contain .photo-card{
-     height: 220px;
-     
- }
- .photo-container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-.photo-card {
-    text-align: center;
     height: 200px;
-    width: 120px; /* Adjust width as needed */
-    background-color: #333;
-    border-radius: 25px;
+    width: 100%;
 }
-
-.photo-card .photo {
-    width: 80px;
-    height: 80px;
-    margin-top: 10px;
-    border-radius: 25px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 2); 
-}
-
-.photo-card p {
-    margin-top:10px;
-    font-size: 10px;
-    color: white;
-}
-.photo-card .nametitle{
-    font-size: 13px;
-    font-weight: 500;
-}
-.photo-container2 {
-    display: flex;
+.photo-container{
+    width: 100%;
+    gap: 100px;
+ }
+ .box{
     gap: 10px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
+ }
+ .photo{
+    height: 150px;
+    border-radius: 25%;
+ }
+ .text{
+    font-size: 15px;
+    
+ }
+ .nametitle{
+    font-weight: 700;
+ }
+ 
 .redline{
     margin-top: -10px;
     width: 350px;
